@@ -1,5 +1,7 @@
-from WikiApi.WikiApi import WikiApi
 import datetime
+
+from WikiApi.WikiApi import WikiApi
+
 
 def main():
     # get yesterday

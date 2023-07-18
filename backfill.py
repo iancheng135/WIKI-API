@@ -1,6 +1,6 @@
 import datetime
-from WikiApi.WikiApi import WikiApi
 
+from WikiApi.WikiApi import WikiApi
 
 
 def main():

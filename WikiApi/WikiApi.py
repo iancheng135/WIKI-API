@@ -1,9 +1,10 @@
+import os
+import uuid
+from datetime import datetime, timedelta
+
+import requests
 from google.cloud import bigquery
 from google.oauth2 import service_account
-import requests
-import uuid
-import os
-from datetime import datetime, timedelta
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
 

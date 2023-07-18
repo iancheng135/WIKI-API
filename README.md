@@ -41,8 +41,11 @@ To backfill the data into the BigQuery dataset, run the `backfill.py` script. Th
 
 To run the program daily at 00:00, you can set up cronjobs on your server. Here are the steps:
 
-1. Open the cronjob configuration file using the command `crontab -e`.
-2. Add the following line to the file:
+1. Log into the box with `ssh -i /Users/qcheng/qcheng qcheng@34.147.216.63`
+2. Clone the repo
+3. Setup the requirments for this project `pip install -r requirments.txt`  / `sudo apt install python3-pip`
+3. Open the cronjob configuration file using the command `crontab -e`.
+4. Add the following line to the file:
 
 ```shell
 0 0 * * * /path/to/python /path/to/main.py
